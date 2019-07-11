@@ -29,9 +29,6 @@ public class Person {
         return name;
     }
 
-    public int getId() {
-        return id;
-    }
 
     public int getAge() {
         return age;
