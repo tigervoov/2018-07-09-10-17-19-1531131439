@@ -21,7 +21,7 @@ public class Teacher extends Person{
         {
             outPut=" I am a Teacher. I teach No Class.";
         }else {
-            outPut=" I am a Teacher. I teach Class"+this.klass+".";
+            outPut=" I am a Teacher. I teach Class "+this.klass+".";
         }
         return super.introduce()+outPut;
     }
