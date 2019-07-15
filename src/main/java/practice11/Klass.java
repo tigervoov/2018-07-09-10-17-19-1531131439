@@ -33,7 +33,7 @@ public class Klass {
         if (student.getKlass().getNumber() == this.number) {
             this.leader = student;
         } else {
-            System.out.println("It is not one of us.\n");
+            System.out.print("It is not one of us.\n");
         }
     }
 

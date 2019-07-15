@@ -60,6 +60,6 @@ public class Teacher extends Person {
         }
     }
     public void say(String studentName,String glass){
-        System.out.println("I am "+this.getName()+". I know "+studentName+" has joined "+glass+".\n");
+        System.out.println("I am "+this.getName()+". I know "+studentName+" has joined "+glass+".");
     }
 }
