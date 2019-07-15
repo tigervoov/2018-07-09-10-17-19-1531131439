@@ -32,6 +32,7 @@ public class Klass {
     public void assignLeader(Student student) {
         if (student.getKlass().getNumber() == this.number) {
             this.leader = student;
+            this.getTeacher().sayLeader(student.getName(),this.getDisplayName());
         } else {
             System.out.print("It is not one of us.\n");
         }

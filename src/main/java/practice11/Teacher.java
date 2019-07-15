@@ -60,6 +60,10 @@ public class Teacher extends Person {
         }
     }
     public void say(String studentName,String glass){
-        System.out.println("I am "+this.getName()+". I know "+studentName+" has joined "+glass+".");
+        System.out.print("I am "+this.getName()+". I know "+studentName+" has joined "+glass+".");
+    }
+    public void sayLeader(String studentName,String glass){
+        String result=String.format("I am %s. I know %s become Leader of %s.\n",this.getName(),studentName,glass);
+        System.out.print(result);
     }
 }
